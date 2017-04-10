@@ -2,5 +2,6 @@ data
 .ipynb_checkpoints
 *.h5
 models
+my-found-traffic-signs
 *.swp
 *.p
