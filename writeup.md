@@ -105,8 +105,8 @@ To train the model, I used LeNet, because the gray image size if (32,32,1) the s
 
 My final model results were:
 * training set accuracy of ? **0.999**
-* validation set accuracy of ? **0.951**
-* test set accuracy of ? **0.933** 
+* validation set accuracy of ? **0.952**
+* test set accuracy of ? **0.934** 
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen? because the gray image size if (32,32,1) the same as the mnist example. so i use LeNet
@@ -171,26 +171,6 @@ If an iterative approach was chosen:
     dropout = 0.9  => validation accuracy=0.912, test accuracy=0.909 <br />
     dropout = 1.0  => validation accuracy=0.929, test accuracy=0.912 <br />
     so the dropout is too small or too large,the result is not good <br />
-    <br />
-    **changing mu** <br />
-    mu = 0     => validation accuracy=0.938, test accuracy=0.915 <br />
-    mu = -0.1  => validation accuracy=0.935, test accuracy=0.912 <br />
-    mu = -0.2  => validation accuracy=0.935, test accuracy=0.910 <br />
-    mu = -1   => validation accuracy=0.936, test accuracy=0.918 <br />
-    mu = -2   => validation accuracy=0.926, test accuracy=0.914 <br />
-    mu = -10   => validation accuracy=0.909, test accuracy=0.901 <br />
-    mu = 0.1   => validation accuracy=0.927, test accuracy=0.916 <br />
-    mu = 1   => validation accuracy=0.923, test accuracy=0.911 <br />
-    mu = 10   => validation accuracy=0.924, test accuracy=0.911 <br />
-    mu = 100   => validation accuracy=0.920, test accuracy=0.911 <br />
-     <br />
-    **changing sigma** <br />
-    sigma = 0.1  => validation accuracy=0.938, test accuracy=0.915 <br />
-    sigma = 0.2  => validation accuracy=0.921, test accuracy=0.908 <br />
-    sigma = 0.4  => validation accuracy=0.911, test accuracy=0.914 <br />
-    sigma = 1  => validation accuracy=0.913, test accuracy=0.911 <br />
-    sigma = 3  => validation accuracy=0.914, test accuracy=0.906 <br />
-    sigma = 10  => validation accuracy=0.921, test accuracy=0.908 <br />
     <br />
     for these test case above, so finally, i set nearly best parameters <br />
     
@@ -278,5 +258,5 @@ i show the picture
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
-
-
+I solved this optional problem, and i print 4 layers,images ,28x28x6 and 14x14x6 and 10x10x16 and 5x5x16
+i find every images, that is nearly more further much for the orginal image. because there so many paramenters that human think. 
